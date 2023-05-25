@@ -10,13 +10,13 @@ const Services = () => {
   return (
     <div className="bg-[#101010] p-10 " id="services">
       <div>
-        <h2 className="flex items-center text-white font-bold ">
+        <h2 className="flex items-center text-white font-bold">
           <AiOutlineCaretRight className="text-red-500" /> My Services
         </h2>
         <p className="text-white text-[2rem] font-bold">What Can I Do</p>
       </div>
       <div className="grid grid-cols-3 gap-10 mt-10">
-        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl">
+        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl hover:scale-110 hover:bg-[#323232]">
           <GoPencil className="mx-auto text-[2.5rem] mb-5 text-red-500 " />
           <h2 className="font-bold text-white mb-4">Creative Design</h2>
           <p className="text-[.9rem] leading-relaxed text-white font-extralight">
@@ -24,7 +24,7 @@ const Services = () => {
             visually appealing and engaging user experiences.
           </p>
         </div>
-        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl">
+        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl hover:scale-110 hover:bg-[#323232]">
           <HiCodeBracket className="mx-auto text-[2.5rem] mb-5 text-red-500 " />
           <h2 className="font-bold text-white mb-4">Clean Code</h2>
           <p className="text-[.9rem] leading-relaxed text-white font-extralight">
@@ -32,7 +32,7 @@ const Services = () => {
             <br /> It involves following coding best practices.
           </p>
         </div>
-        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl">
+        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl hover:scale-110 hover:bg-[#323232]">
           <BsLaptop className="mx-auto text-[2.5rem] mb-5 text-red-500 " />
           <h2 className="font-bold text-white mb-4">User Interface</h2>
           <p className="text-[.9rem] leading-relaxed text-white font-extralight">
@@ -40,7 +40,7 @@ const Services = () => {
             usability, accessibility, and a seamless user experience.
           </p>
         </div>
-        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl">
+        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl hover:scale-110 hover:bg-[#323232]">
           <BsFillBagCheckFill className="mx-auto text-[2.5rem] mb-5 text-red-500 " />
           <h2 className="font-bold text-white mb-4">User Experience</h2>
           <p className="text-[.9rem] leading-relaxed text-white font-extralight">
@@ -48,7 +48,7 @@ const Services = () => {
             interfaces that are intuitive, efficient, and enjoyable to use.
           </p>
         </div>
-        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl">
+        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl hover:scale-110 hover:bg-[#323232]">
           <HiOutlineSupport className="mx-auto text-[2.5rem] mb-5 text-red-500 " />
           <h2 className="font-bold text-white mb-4">Fast Support</h2>
           <p className="text-[.9rem] leading-relaxed text-white font-extralight">
@@ -56,7 +56,7 @@ const Services = () => {
             to the website or application.
           </p>
         </div>
-        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl">
+        <div className="bg-[#202020] max-w-[450px] py-10 text-center rounded-xl hover:scale-110 hover:bg-[#323232]">
           <BsFlagFill className="mx-auto text-[2.5rem] mb-5 text-red-500 " />
           <h2 className="font-bold text-white mb-4">Branding</h2>
           <p className="text-[.9rem] leading-relaxed text-white font-extralight">

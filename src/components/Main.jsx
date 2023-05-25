@@ -16,12 +16,12 @@ const Main = () => {
           </p>
           <Link
             href="/about"
-            className="text-white bg-red-600 p-2 font-semibold text-[1.1rem] "
+            className="text-white bg-red-600 px-10 py-3 font-semibold text-[1.1rem] rounded"
           >
             About me
           </Link>
         </div>
-        <Image src="/assets/jurgen.png" alt="" height={800} width={900} />
+        <Image src="/assets/jurgenpic.png" alt="" height={800} width={900} />
       </div>
     </>
   );

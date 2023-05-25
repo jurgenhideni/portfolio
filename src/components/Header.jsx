@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="flex justify-between m-5 uppercase">
-      <Image src="/assets/webdev.png" alt="" width={200} height={50} />
+    <div className="flex justify-between m-5 uppercase items-center">
+      <Image src="/assets/logo01.png" alt="" width={100} height={50} />
       <div className="flex gap-20  mx-10 text-white ">
         <Link className="hover:text-red-400" href="/">
           Home
@@ -13,6 +13,9 @@ const Header = () => {
 
         <Link className="hover:text-red-400" href="/resume">
           Resume
+        </Link>
+        <Link className="hover:text-red-400" href="/about">
+          About Me
         </Link>
         <Link className="hover:text-red-400" href="/contact">
           Contact
