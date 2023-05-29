@@ -13,7 +13,7 @@ const Footer = () => {
             Lets work together on your next project
           </h1>
           <p className="max-w-[600px] text-gray-400 font-sans">
-            Collaboration is key! Let's join forces and combine our skills to
+            Collaboration is key! Lets join forces and combine our skills to
             tackle your next project with a powerful synergy that guarantees
             success.
           </p>
