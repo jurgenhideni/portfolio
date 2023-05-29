@@ -15,10 +15,10 @@ const Main = () => {
             ever-evolving world of technology and its limitless possibilities.
           </p>
           <Link
-            href="/about"
-            className="text-white bg-red-600 px-10 py-3 font-semibold text-[1.1rem] rounded"
+            href="/contact"
+            className="text-white bg-red-600 px-10 py-2 font-semibold text-[1.1rem] rounded hover:underline underline-offset-4"
           >
-            About me
+            Contact me
           </Link>
         </div>
         <Image src="/assets/jurgenpic.png" alt="" height={800} width={900} />
