@@ -1,5 +1,3 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -19,9 +17,9 @@ const About = () => {
           height={500}
           width={550}
           alt=""
-          className="rounded-lg"
+          className="rounded-lg max-sm:hidden "
         />
-        <div className="text-white flex flex-col ">
+        <div className="text-white flex flex-col max-sm:mx-10">
           <h2 className="font-semibold text-[1.5rem] items-center flex">
             <AiOutlineCaretRight className="text-red-500" /> About me
           </h2>
@@ -32,17 +30,23 @@ const About = () => {
             design and technology, and I am thrilled to be able to bring my
             creative ideas to life through coding. My primary focus is on
             frontend development, where I excel in crafting beautiful user
-            interfaces that are both visually appealing and user-friendly. My
-            technical skills include proficiency in HTML, CSS, JavaScript, and
-            various frontend frameworks such as React and Next.js . I am
-            well-versed in responsive design principles, ensuring that websites
-            look great and function seamlessly across different devices and
-            screen sizes. Continuously learning and staying up-to-date with the
-            latest trends and technologies is a priority for me. I am always
-            exploring new tools, frameworks, and techniques to enhance my skills
-            and deliver cutting-edge solutions to my clients.
+            interfaces that are both visually appealing and user-friendly.
+            <span className="max-sm:hidden">
+              My technical skills include proficiency in HTML, CSS, JavaScript,
+              and various frontend frameworks such as React and Next.js . I am
+              well-versed in responsive design principles, ensuring that
+              websites look great and function seamlessly across different
+              devices and screen sizes. Continuously learning and staying
+              up-to-date with the latest trends and technologies is a priority
+              for me. I am always exploring new tools, frameworks, and
+              techniques to enhance my skills and deliver cutting-edge solutions
+              to my clients.
+            </span>
           </p>
-          <div className="grid grid-cols-3 font-bold gap-7 mt-7 bg-[#101010] px-32 py-5 rounded-lg">
+          <div
+            className="grid grid-cols-3 font-bold gap-7 mt-7 bg-[#101010]   py-5 rounded-lg max-sm:grid-cols-2 
+          max-sm:px-2"
+          >
             <div className="flex  bg-[#252525] justify-center rounded-md py-2">
               <AiFillHtml5 className="text-orange-500 text-[1.5rem] " />
               <h2>Html5</h2>
@@ -66,7 +70,8 @@ const About = () => {
           </div>
           <Link
             href="https://drive.google.com/file/d/1rtjoQfNGfbRn_XNOhUXwA0_TNnrh9pWA/view?usp=share_link"
-            className=" bg-red-700 max-w-[200px] text-center mt-5 py-2 rounded-md font-bold hover:underline underline-offset-4"
+            className=" bg-red-700 max-w-[200px] text-center mt-5 py-2 rounded-md font-bold hover:underline underline-offset-4
+            max-sm:mx-2 max-sm:max-w-[193px]"
           >
             Download CV
           </Link>
