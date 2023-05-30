@@ -6,7 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Header = () => {
   return (
     <>
-      <div className="flex justify-between ">
+      <div className="flex justify-between md:hidden ">
         <Image
           src="/assets/logo01.png"
           alt=""
