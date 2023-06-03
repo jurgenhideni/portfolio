@@ -6,7 +6,7 @@ import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
