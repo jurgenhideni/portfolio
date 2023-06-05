@@ -34,23 +34,23 @@ const CurriculumVitae = () => {
         </div>
         <div className="font-semibold text-white ml-12 text-[1.2rem] mb-3">
           <p>
-            <span className="text-red-500">-</span> Training " Financa 5 & Alha
-            Web", ATC
+            <span className="text-red-500">-</span> Training Financa 5 & Alha
+            Web, ATC
           </p>
           <h3 className="text-slate-400 ml-5">04.2022 - 05.2022</h3>
         </div>
         <div className="font-semibold text-white ml-12 text-[1.2rem] mb-3">
           <p>
-            <span className="text-red-500">-</span> MSC "Financial Markets &
-            Banking", Universiteti Luarasi
+            <span className="text-red-500">-</span> MSC Financial Markets &
+            Banking, Universiteti Luarasi
           </p>
           <h3 className="text-slate-400 ml-5">11.2020 - 07.2022</h3>
         </div>
 
         <div className="font-semibold text-white ml-12 text-[1.2rem] mb-3">
           <p>
-            <span className="text-red-500">-</span> Bachelor of "Finance &
-            Banking", Aleksandër Moisiu University of Durrës
+            <span className="text-red-500">-</span> Bachelor of Finance &
+            Banking, Aleksandër Moisiu University of Durrës
           </p>
           <h3 className="text-slate-400 ml-5">10.2016 - 07.2020</h3>
         </div>
