@@ -9,7 +9,7 @@ const Contact = () => {
       </h1>
 
       <h2 className="font-bold mx-10 text-[1.5rem]">
-        I'd love to hear from you!!
+        Id love to hear from you!!
       </h2>
       <div className="mx-10 my-5 flex flex-col  max-w-[300px] gap-3 text-black">
         <input
