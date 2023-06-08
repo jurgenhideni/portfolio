@@ -44,7 +44,7 @@ const About = () => {
             </span>
           </p>
           <div
-            className="grid grid-cols-3 font-bold gap-7 mt-7 bg-[#101010]   py-5 rounded-lg max-sm:grid-cols-2 
+            className="grid grid-cols-3 font-bold gap-7 mt-7 bg-[#101010] lg:px-4  py-5 rounded-lg max-sm:grid-cols-2 
           max-sm:px-2"
           >
             <div className="flex  bg-[#252525] justify-center rounded-md py-2">
