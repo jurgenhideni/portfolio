@@ -12,8 +12,8 @@ import { AiFillGithub } from "react-icons/ai";
 
 const Resume = () => {
   return (
-    <div className="flex justify-around">
-      <div className="bg-[#202020] lg:min-h-[100vh]  rounded-lg text-center text-white">
+    <div className="flex justify-around max-sm:grid grid-cols-1 max-sm:mt-16">
+      <div className="bg-[#202020] lg:min-h-[100vh]  lg:rounded-lg text-center text-white">
         <Image
           src="/assets/profile.png"
           width={500}
@@ -55,11 +55,14 @@ const Resume = () => {
         </div>
       </div>
 
-      <div className="lg:min-h-[100vh] lg:max-w-[1300px]  rounded-lg bg-[#202020]">
-        <h1 className="text-white font-bold text-[2.5rem] px-5 bg-red-500 max-w-[250px] py-2 rounded-br-full rounded-tl-md">
+      <div className="lg:min-h-[100vh] lg:max-w-[1300px]  lg:rounded-lg bg-[#202020]">
+        <h1 className="text-white font-bold text-[2.5rem] px-5 bg-red-500 max-w-[250px] max-sm:hidden py-2 rounded-br-full rounded-tl-md ">
           Resume
         </h1>
-        <div className="flex text-white">
+        <h2 className="md:hidden mt-16 text-center bg-[#101010] py-2 text-[2.5rem] font-bold text-red-500">
+          Resume
+        </h2>
+        <div className="flex text-white max-sm:grid max-sm:grid-cols-1">
           <CurriculumVitae />
           <div className="flex flex-col gap-2">
             <div className="m-10">

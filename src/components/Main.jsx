@@ -4,7 +4,7 @@ import Link from "next/link";
 const Main = () => {
   return (
     <>
-      <div className="flex justify-around items-center pb-28 max-sm:block max-sm:mx-10">
+      <div className="flex justify-around items-center pb-28 max-sm:block max-sm:mx-10 max-sm:mt-20">
         <div className="font-sans ">
           <p className="font-bold font-sans text-[2rem] text-red-500">
             Hello, My Name Is

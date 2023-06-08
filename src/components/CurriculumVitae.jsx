@@ -4,8 +4,8 @@ import { BiBookOpen } from "react-icons/bi";
 import { MdOutlineWorkOutline } from "react-icons/md";
 const CurriculumVitae = () => {
   return (
-    <div className="max-w-[700px] border-r border-slate-400 ">
-      <div className="mx-10 text-white">
+    <div className="max-w-[700px] border-r border-slate-400 max-sm:grid max-sm:grid-cols-1 ">
+      <div className="mx-10 text-white max-sm:grid max-sm:grid-cols-1">
         <div className="flex items-center gap-4  mt-10 mb-5">
           <BsFillPersonFill className="text-red-500 text-[2rem]" />
           <h2 className="text-[2rem] font-bold">Profile</h2>
@@ -14,10 +14,13 @@ const CurriculumVitae = () => {
           A highly motivated and detail-oriented junior front-end developer with
           a passion for creating innovative and visually appealing web
           applications. Proficient in HTML, CSS, JavaScript, and React, with
-          experience in developing responsive and user-friendly websites. Strong
-          problem-solving skills and a desire to learn and grow in a dynamic and
-          fast-paced environment. A collaborative team player with good
-          communication skills and a commitment to delivering high-quality work.
+          experience in developing responsive and user-friendly websites.{" "}
+          <span className="max-sm:hidden">
+            Strong problem-solving skills and a desire to learn and grow in a
+            dynamic and fast-paced environment. A collaborative team player with
+            good communication skills and a commitment to delivering
+            high-quality work.
+          </span>
         </p>
       </div>
       <div className="mx-10 text-white">
