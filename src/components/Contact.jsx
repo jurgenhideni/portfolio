@@ -1,36 +1,77 @@
-import React from "react";
 import { AiOutlineCaretRight } from "react-icons/ai";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.NEXT_PUBLIC_SERVICE_ID,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID,
+        form.current,
+        process.env.NEXT_PUBLIC_YOUR_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("Email sent Successfully !");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
-    <div className="max-sm:mt-28 text-white">
-      <h1 className="flex items-center font-bold text-[2.5rem]">
+    <div className="max-sm:mt-28 text-white ">
+      <h1 className="flex items-center font-bold text-[1.5rem] max-sm:ml-8 lg:hidden">
         <AiOutlineCaretRight className="text-red-500" /> Contact
       </h1>
 
-      <h2 className="font-bold mx-10 text-[1.5rem]">
-        Id love to hear from you!!
+      <h2 className="font-bold mx-10 text-[1.8rem] lg:text-center lg:text-[3rem] lg:my-5">
+        I&apos;d love to hear from you!!
       </h2>
-      <div className="mx-10 my-5 flex flex-col  max-w-[300px] gap-3 text-black">
+      <form
+        ref={form}
+        onSubmit={sendEmail}
+        className="  flex flex-col mx-10 lg:mx-auto my-5  max-w-[300px] lg:max-w-[500px] gap-3 lg:gap-5  text-black"
+      >
         <input
-          className="p-2 rounded-md"
+          className="p-4 rounded-md outline-none border-none"
           type="text"
           placeholder="First Name"
+          name="firstName"
         />
-        <input className="p-2 rounded-md" type="text" placeholder="Last Name" />
-        <input className="p-2 rounded-md" type="email" placeholder="E-Mail" />
         <input
-          className="p-2 rounded-md align-top h-[200px]"
+          className="p-4 rounded-md outline-none border-none"
           type="text"
-          placeholder="Comment..."
+          placeholder="Last Name"
+          name="lastName"
+        />
+        <input
+          className="p-4 rounded-md outline-none border-none"
+          type="email"
+          placeholder="E-Mail"
+          name="user_email"
+        />
+        <textarea
+          className="p-4 rounded-md align-top h-[200px] outline-none border-none"
+          type="text"
+          placeholder="Message..."
+          name="message"
         />
         <button
           type="submit"
-          className="bg-red-600 text-white py-3 rounded-md  font-bold"
+          value="Send"
+          className="bg-red-600 text-white py-4 rounded-md  font-bold"
         >
           Submit
         </button>
-      </div>
+      </form>
     </div>
   );
 };
