@@ -16,7 +16,8 @@ const Main = () => {
           </p>
           <Link
             href="/contact"
-            className="text-white bg-red-600 px-10 py-2 font-semibold text-[1.1rem] rounded hover:underline underline-offset-4"
+            className="text-white bg-red-600 px-10 py-2 font-semibold text-[1.1rem] rounded hover:text-red-500 hover:bg-white
+            transition ease-in-out duration-200"
           >
             Contact me
           </Link>

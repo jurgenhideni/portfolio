@@ -20,7 +20,8 @@ const Footer = () => {
         </div>
         <Link
           href="/contact"
-          className="text-white bg-red-600 px-10 py-3 rounded max-sm:hidden "
+          className="text-white font-bold bg-red-600 px-10 py-3 rounded max-sm:hidden hover:bg-[#fff] hover:text-red-500 
+          transition ease-in-out duration-200"
         >
           Contact
         </Link>

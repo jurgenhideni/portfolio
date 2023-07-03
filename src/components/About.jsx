@@ -70,8 +70,8 @@ const About = () => {
           </div>
           <Link
             href="https://drive.google.com/file/d/1rtjoQfNGfbRn_XNOhUXwA0_TNnrh9pWA/view?usp=share_link"
-            className=" bg-red-700 max-w-[200px] text-center mt-5 py-2 rounded-md font-bold hover:underline underline-offset-4
-            max-sm:mx-2 max-sm:max-w-[193px]"
+            className=" bg-red-700 max-w-[200px] text-center mt-5 py-2 rounded-md font-bold transition ease-in-out duration-200
+            max-sm:mx-2 max-sm:max-w-[193px] hover:bg-white hover:text-red-500"
           >
             Download CV
           </Link>

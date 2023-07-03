@@ -24,7 +24,7 @@ const Header = () => {
       </div>
       <div className="flex justify-between p-3 uppercase items-center max-sm:hidden sticky top-0 bg-black">
         <Image src="/assets/logo01.png" alt="" width={100} height={50} />
-        <div className="flex gap-20  mx-10 text-white ">
+        <div className="flex gap-20  mx-10 text-white font-bold text-[1.1rem]">
           <Link className="hover:text-red-400" href="/">
             Home
           </Link>

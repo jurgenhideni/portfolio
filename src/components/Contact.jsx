@@ -45,24 +45,32 @@ const Contact = () => {
           type="text"
           placeholder="First Name"
           name="firstName"
+          required
+          autoComplete="off"
         />
         <input
           className="p-4 rounded-md outline-none border-none"
           type="text"
           placeholder="Last Name"
           name="lastName"
+          required
+          autoComplete="off"
         />
         <input
           className="p-4 rounded-md outline-none border-none"
           type="email"
           placeholder="E-Mail"
           name="user_email"
+          required
+          autoComplete="off"
         />
         <textarea
           className="p-4 rounded-md align-top h-[200px] outline-none border-none"
           type="text"
           placeholder="Message..."
           name="message"
+          required
+          autoComplete="off"
         />
         <button
           type="submit"
