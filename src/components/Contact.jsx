@@ -41,7 +41,7 @@ const Contact = () => {
         className="  flex flex-col mx-10 lg:mx-auto my-5  max-w-[300px] lg:max-w-[500px] gap-3 lg:gap-5  text-black"
       >
         <input
-          className="p-4 rounded-md outline-none border-none"
+          className="p-4 rounded-md outline-none border-none focus:ring-2 focus:ring-red-500 "
           type="text"
           placeholder="First Name"
           name="firstName"
@@ -49,7 +49,7 @@ const Contact = () => {
           autoComplete="off"
         />
         <input
-          className="p-4 rounded-md outline-none border-none"
+          className="p-4 rounded-md outline-none border-none focus:ring-2 focus:ring-red-500"
           type="text"
           placeholder="Last Name"
           name="lastName"
@@ -57,7 +57,7 @@ const Contact = () => {
           autoComplete="off"
         />
         <input
-          className="p-4 rounded-md outline-none border-none"
+          className="p-4 rounded-md outline-none border-none focus:ring-2 focus:ring-red-500"
           type="email"
           placeholder="E-Mail"
           name="user_email"
@@ -65,7 +65,7 @@ const Contact = () => {
           autoComplete="off"
         />
         <textarea
-          className="p-4 rounded-md align-top h-[200px] outline-none border-none"
+          className="p-4 rounded-md align-top h-[200px] outline-none border-none focus:ring-2 focus:ring-red-500"
           type="text"
           placeholder="Message..."
           name="message"
