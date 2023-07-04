@@ -25,17 +25,29 @@ const Header = () => {
       <div className="flex justify-between p-3 uppercase items-center max-sm:hidden sticky top-0 bg-black">
         <Image src="/assets/logo01.png" alt="" width={100} height={50} />
         <div className="flex gap-20  mx-10 text-white font-bold text-[1.1rem]">
-          <Link className="hover:text-red-400" href="/">
+          <Link
+            className="hover:text-red-500 transition ease-in-out duration-200"
+            href="/"
+          >
             Home
           </Link>
 
-          <Link className="hover:text-red-400" href="/resume">
+          <Link
+            className="hover:text-red-500 transition ease-in-out duration-200"
+            href="/resume"
+          >
             Resume
           </Link>
-          <Link className="hover:text-red-400" href="/about">
+          <Link
+            className="hover:text-red-500 transition ease-in-out duration-200"
+            href="/about"
+          >
             About Me
           </Link>
-          <Link className="hover:text-red-400" href="/contact">
+          <Link
+            className="hover:text-red-500 transition ease-in-out duration-200"
+            href="/contact"
+          >
             Contact
           </Link>
         </div>

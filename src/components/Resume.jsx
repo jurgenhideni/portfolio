@@ -56,7 +56,7 @@ const Resume = () => {
       </div>
 
       <div className="lg:min-h-[100vh] lg:max-w-[1300px]  lg:rounded-lg bg-[#202020]">
-        <h1 className="text-white font-bold text-[2.5rem] px-5 bg-red-500 max-w-[250px] max-sm:hidden py-2 rounded-br-full rounded-tl-md ">
+        <h1 className="text-white font-bold text-[2.5rem] px-5 bg-red-600 max-w-[250px] max-sm:hidden py-2 rounded-br-full rounded-tl-md ">
           Resume
         </h1>
         <h2 className="md:hidden mt-16 text-center bg-[#101010] py-2 text-[2.5rem] font-bold text-red-500">
