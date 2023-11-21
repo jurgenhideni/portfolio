@@ -46,6 +46,12 @@ const Header = () => {
           </Link>
           <Link
             className="hover:text-red-500 transition ease-in-out duration-200"
+            href="/projects"
+          >
+            MY PROJECTS
+          </Link>
+          <Link
+            className="hover:text-red-500 transition ease-in-out duration-200"
             href="/contact"
           >
             Contact
